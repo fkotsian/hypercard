@@ -28,6 +28,7 @@ gem 'spring',        group: :development
 
 gem 'devise'
 gem 'annotate'
+gem 'bootstrap-sass', '~> 3.2.0'
 
 group :development do
   gem 'better_errors'

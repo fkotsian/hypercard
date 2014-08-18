@@ -1,3 +1,35 @@
 // Place all the styles related to the Flashcards controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+/****************************** Show *********************************/
+
+#card-wrapper {
+  background: white;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+}
+
+.flashcard {
+  text-align: center;
+}
+
+.question {
+  opacity: 1;
+}
+
+.answer {
+  display: none;
+  opacity: 0;
+  z-index: 10;
+}
+
+.question:hover {
+ opacity: 0; 
+}
+
+.question:hover .answer {
+  display: inline-block;
+  opacity: 0.8;
+}

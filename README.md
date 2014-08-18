@@ -22,3 +22,8 @@ Using the science of context and memory integration, HyperCard aims to provide y
 
 - Flashcard view is by flashcard (one card at a time, clean minimal view)
 - Set view is like Flickr - small, aligned card view, with hoverover displaying the question
+
+- Users can add anchors via a Google Image searchbar 
+  - Searchbar defaults to their Question text
+  - Searchbar appears on the side, and as do images/images appear on a side div
+  - Clicking on an image pops up or selects its URL as the Card's Image property (pops up a confirm?)

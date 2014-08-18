@@ -1,2 +1,19 @@
-<h1>Flashcards#show</h1>
-<p>Find me in app/views/flashcards/show.html.erb</p>
+<div class="row">
+  <div class="col-md-offset-4 col-md-4">
+    <div id="card-wrapper">
+      <div class="flashcard">
+        <div class="question">
+          <h2><%= @card.question %></h2>
+          <div class="answer">
+            <h2><%= @card.answer %></h2>
+          </div>
+          <div class="anchor">
+            <!-- <#%= @card.image %> -->
+          </div>
+        </div>
+        <div class="tags">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
