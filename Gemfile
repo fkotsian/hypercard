@@ -35,6 +35,6 @@ group :development do
 end
 
 group :test do
-  gem 'factory-girl_rails'
+  gem 'factory_girl_rails'
 end
 
