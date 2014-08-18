@@ -20,6 +20,5 @@ Using the science of context and memory integration, HyperCard aims to provide y
 - Users can view their personal memory curve
 - Users can see how they perform on certain topics and questions (most missed question, most correct question, most missed topic, most correct topic) - by percentage
 
-
 - Flashcard view is by flashcard (one card at a time, clean minimal view)
 - Set view is like Flickr - small, aligned card view, with hoverover displaying the question
