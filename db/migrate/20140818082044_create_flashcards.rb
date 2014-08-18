@@ -4,6 +4,7 @@ class CreateFlashcards < ActiveRecord::Migration
       t.string :title, null: false
       t.string :question, null: false
       t.string :answer, null: false
+      t.references :user, index: true
 
       t.timestamps
     end
